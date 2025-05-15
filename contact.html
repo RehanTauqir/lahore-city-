@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Explore Lahore - Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function showPopup() {
+      alert("Thank you for contacting us!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <form onsubmit="showPopup(); return false;">
+      <label>Name:</label><br>
+      <input type="text" required><br>
+      <label>Email:</label><br>
+      <input type="email" required><br>
+      <label>Message:</label><br>
+      <textarea required rows="4"></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Explore Lahore</p>
+  </footer>
+</body>
+</html>
